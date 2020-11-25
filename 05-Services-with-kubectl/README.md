@@ -54,6 +54,8 @@ server {
 ```
 # Create Deployment for Frontend Nginx Proxy
 kubectl create deployment my-frontend-nginx-app --image=stacksimplify/kube-frontend-nginx:1.0.0 
+kubectl create deployment my-frontend-nginx-app --image=369693/kube-frontend-nginx:1.0.0 
+
 kubectl get deploy
 
 # Create ClusterIp Service for Frontend Nginx Proxy
